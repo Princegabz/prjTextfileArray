@@ -19,7 +19,7 @@ namespace prjTextfileArray
             while (choice==1)
             {
                 printArray();
-                Console.WriteLine("would you like to update a products price Enter (1) for YES:");
+                Console.WriteLine("would you like to update a products price Enter (1) for YES:");//
                 choice = Convert.ToInt32(Console.ReadLine());
 
                 if (choice == 1)
